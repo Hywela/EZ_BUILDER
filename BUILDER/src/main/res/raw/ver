@@ -1,0 +1,12 @@
+uniform mat4 mProjectionMatrix;
+uniform mat4 ModelView;
+attribute vec3 color;
+attribute vec3 Position;
+attribute vec2 TexCoordinate;
+varying vec2 vTexCoordinate;
+varying vec3 vColor;
+void main() {
+vTexCoordinate = TexCoordinate;
+mat4 mvp = mProjectionMatrix * ModelView;
+gl_Position = mvp * vec4(Position.xy,1,1);
+ }

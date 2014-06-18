@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    style="@style/AppTheme">
+
+
+    <Button
+        android:id="@+id/button_builder_roatation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Roation" />
+    <Button
+        android:id="@+id/button_builder_radius"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Radius"
+        android:layout_above="@+id/button_builder_roatation"
+        android:layout_alignRight="@+id/button_builder_roatation"
+        android:layout_alignEnd="@+id/button_builder_roatation" />
+    <Button
+        android:id="@+id/button_builder_size"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SIze"
+        android:layout_below="@+id/button_builder_roatation"
+        android:layout_alignLeft="@+id/button_builder_roatation"
+        android:layout_alignStart="@+id/button_builder_roatation"
+        android:layout_alignRight="@+id/button_builder_roatation"
+        android:layout_alignEnd="@+id/button_builder_roatation" />
+
+</RelativeLayout>
+

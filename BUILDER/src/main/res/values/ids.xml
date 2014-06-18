@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edit_mode" type="id">Temp1</item>
+    <item name="delete" type="id">temp2</item>
+    <item name="dismiss" type="id">dd</item>
+    <item name="Move" type="id">Move</item>
+    <item name="menu_spawn_box" type="id">Spawn Box</item>
+    <item name="menu_spawn_circle" type="id">Spawns Circle</item>
+    <item name="menu_create_vertices" type="id">vertice creation</item>
+    <item name="menu_build_the_modell" type="id">Builds it</item>
+    <item name="menu_spawn_triangle" type="id">Spawns Triangle</item>
+
+
+
+</resources>

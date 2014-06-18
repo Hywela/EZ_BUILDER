@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="228dp"
+        android:layout_height="37dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:text="Value"
+        style="@style/AppTheme"
+        android:textColor="@color/abc_search_url_text_holo"
+        android:textColorHighlight="@color/abc_search_url_text_selected"
+        android:background="@color/abc_search_url_text_selected" />
+
+    <Button
+        style="@style/AppTheme"
+        android:layout_width="53dp"
+        android:layout_height="37dp"
+        android:text="Submit"
+        android:id="@+id/button_submit"
+        android:background="@color/abc_search_url_text_normal" />
+
+</LinearLayout>

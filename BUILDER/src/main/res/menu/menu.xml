@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Single menu item
+         Set id, icon and Title for each menu item
+    -->
+    <item android:id="@+id/Move"
+
+        android:title="@string/Move" />
+
+    <item android:id="@+id/menu_spawn_box"
+
+        android:title="@string/menu_spawn_box" />
+
+    <item android:id="@+id/menu_spawn_circle"
+
+        android:title="@string/menu_spawn_circle" />
+
+    <item android:id="@+id/menue_create_vertices"
+
+        android:title="Create Vertices" />
+
+    <item android:id="@+id/menu_build_the_modell"
+
+        android:title="Build It" />
+
+    <item android:id="@+id/menu_spawn_triangle"
+
+        android:title="Spawn Triangles" />
+
+    <item android:id="@+id/edit_mode"
+
+        android:title="Editt Objects" />
+</menu>
