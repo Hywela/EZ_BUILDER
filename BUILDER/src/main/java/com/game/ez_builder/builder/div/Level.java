@@ -20,7 +20,8 @@ public class Level {
         previousHeigth = BuilderConstants.getScreenSize();
         previousWidth = BuilderConstants.getScreenSizeW();
         zone = new GameZone(0, 0, previousWidth, previousHeigth );
-
+        loadNewZone();
+        loadNewZone();
 
     }
 

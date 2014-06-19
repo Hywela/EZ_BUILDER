@@ -28,11 +28,12 @@ public class GameZone {
         this.zoneHeight = startPostionHeight + zoneHeight;
 
         this.zoneWidth = startPostionWidth + zoneWidth;
-        this.wallHeight = this.zoneHeight - startPostionHeight;
+        this.wallHeight = zoneHeight;
 
         this.wallWidth = (int) ( this.zoneWidth * 0.02 );
+
 if(startPostionHeight != 0){
-        spawnPostionSideH = this.zoneHeight - (startPostionHeight/2)  ;
+        spawnPostionSideH = this.zoneHeight - zoneHeight/2  ;
 } else  spawnPostionSideH = this.zoneHeight/2;
         Log.d("start P", "P " + startPostionHeight);
 

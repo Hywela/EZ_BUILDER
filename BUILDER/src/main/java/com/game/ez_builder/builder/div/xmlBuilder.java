@@ -66,6 +66,9 @@ public class xmlBuilder {
     public void writeNewStatic(int heigth, int width, Vec2 position, int type, float rotation ,float radius, int texture){
         Element objectType = null;
 
+        int percent_h  = BuilderConstants.getScreenSize()/100;
+        int percent_w = BuilderConstants.getScreenSizeW()/100;
+
         if(type == 1) {
             objectType = doc.createElement("BOX");
             Zone.appendChild(objectType);
@@ -78,20 +81,20 @@ public class xmlBuilder {
         }
 
         Attr attr = doc.createAttribute("heigth");
-        attr.setValue("" + heigth);
+        attr.setValue("" + heigth/percent_h);
         objectType.setAttributeNode(attr);
 
 
         attr = doc.createAttribute("width");
-        attr.setValue(""+width);
+        attr.setValue(""+width/percent_w);
         objectType.setAttributeNode(attr);
 
        attr = doc.createAttribute("posX");
-        attr.setValue(""+position.x);
+        attr.setValue(""+(int)position.x/percent_h);
         objectType.setAttributeNode(attr);
 
         attr = doc.createAttribute("posY");
-         attr.setValue(""+position.y);
+         attr.setValue(""+(int)position.y/percent_w);
         objectType.setAttributeNode(attr);
 
         attr = doc.createAttribute("rotation");

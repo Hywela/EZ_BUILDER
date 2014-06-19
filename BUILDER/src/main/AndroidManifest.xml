@@ -29,7 +29,7 @@
             <!--</intent-filter>-->
         <!--</activity>-->
         <activity
-            android:name="com.game.energyzone.Menu"
+            android:name="com.game.ez_builder.builder.Menu"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_menu"
             android:theme="@style/FullscreenTheme" >
