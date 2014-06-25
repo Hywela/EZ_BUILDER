@@ -80,7 +80,7 @@ public class xmlBuilder {
 
         }
 
-        Attr attr = doc.createAttribute("heigth");
+        Attr attr = doc.createAttribute("height");
         attr.setValue("" + heigth/percent_h);
         objectType.setAttributeNode(attr);
 
@@ -90,18 +90,18 @@ public class xmlBuilder {
         objectType.setAttributeNode(attr);
 
        attr = doc.createAttribute("posX");
-        attr.setValue(""+(int)position.x/percent_h);
+        attr.setValue(""+(int)position.x/percent_w);
         objectType.setAttributeNode(attr);
 
         attr = doc.createAttribute("posY");
-         attr.setValue(""+(int)position.y/percent_w);
+         attr.setValue(""+(int)position.y/percent_h);
         objectType.setAttributeNode(attr);
 
         attr = doc.createAttribute("rotation");
         attr.setValue(""+rotation);
         objectType.setAttributeNode(attr);
         if(type == 3) {
-            attr = doc.createAttribute("raidius");
+            attr = doc.createAttribute("radius");
             attr.setValue("" + radius);
             objectType.setAttributeNode(attr);
         }

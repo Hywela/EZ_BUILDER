@@ -9,7 +9,7 @@ public class Level {
     private GameZone  zone;
     private int lvlID;
 
-    private static int zoneID=0;
+    private static int zoneID=1;
     private int previousWidth, previousHeigth;
 
 
