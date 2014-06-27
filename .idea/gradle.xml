@@ -7,8 +7,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="C:\Users\Kristoffer\AndroidStudioProjects\EZ_BUILDER" />
-            <option value="C:\Users\Kristoffer\AndroidStudioProjects\EZ_BUILDER\BUILDER" />
+            <option value="D:\AndroidStudioProjects\EZ_BUILDER" />
+            <option value="D:\AndroidStudioProjects\EZ_BUILDER\BUILDER" />
           </set>
         </option>
       </GradleProjectSettings>
